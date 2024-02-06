@@ -1,0 +1,56 @@
+.navbar {
+    /* display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    background: transparent; */
+    background-color: #cf4949;
+}
+
+.nav-list {
+    list-style-type: none;
+    /* Remove bullet points from the list */
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+/* 
+.navbar>ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar>ul>li {
+    text-decoration: none;
+    display: inline;
+    padding-left: 30px;
+    color: white;
+} */
+
+.nav-list li {
+    display: inline-block;
+    /* Display list items horizontally */
+    margin-right: 20px;
+    /* Add space between list items */
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last list item */
+}
+
+.nav-list li a {
+    color: white;
+    /* Text color for the links */
+    text-decoration: none;
+    /* Remove underline from the links */
+    padding: 10px;
+    /* Add padding around the links */
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+    /* Background color on hover */
+}
